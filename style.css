@@ -16,7 +16,7 @@
   min-height: 20vh;
   /*color: #ff0044;*/
   color: white;
-  background: rgba(31, 104, 117, 0.582);
+  background: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +37,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .footer a {
