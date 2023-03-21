@@ -16,14 +16,28 @@
   min-height: 20vh;
   /*color: #ff0044;*/
   color: white;
-  background: white;
+  background: #ff0044;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
-.nav {
-  display: flex;
+
+.button-nav {
+  color: white;
+  background: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
 }
+
+.button-nav:hover {
+  color: #292d32;
+}
+
 .logo-estat {
   width: 70px;
 }
@@ -33,7 +47,7 @@
 
 footer {
   height: 10vh;
-  background: black;
+  background: #ff0044;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,11 +56,13 @@ footer {
 .footer a {
   text-decoration: none;
   color: white;
+  padding: 30px;
 }
 .footer a:hover {
   border: 1px solid white;
   border-radius: 5px;
   padding: 5px;
+  margin: 30px;
 }
 .logo-footer {
   width: 50px;
